@@ -1,0 +1,10 @@
+﻿Name: MainBit.ShareButtons
+AntiForgery: enabled
+Author: neTp9c
+Website: http://mainbit.com
+Version: 1.0
+OrchardVersion: 1.7
+Category: Community
+Features:
+    MainBit.ShareButtons:
+        Description: Add This share buttons
