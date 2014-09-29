@@ -1,0 +1,72 @@
+﻿/* styles from delovar-cw.ru */
+/* Share buttons
+***************************************************************/
+#layout-after-main {
+    border-top: 2px solid #f0f0f0;
+    text-align: center;
+}
+.zone-after-main {
+    display: inline-block;
+    margin: 20px 0;
+    position: relative;
+}
+.zone-after-main .label {
+    position: absolute;
+    right: 0;
+    margin-right: 100%;
+    word-spacing: normal;
+    white-space: nowrap;
+    font-family: helveticaneuelight;
+    line-height: 36px;
+    padding-right: 30px;
+}
+
+#ya_share .b-share {
+    padding: 0 !important;
+}
+#ya_share .b-share__handle {
+    margin:0 32px 0 0;
+    width: auto;
+    height: auto;
+    padding: 0 !important;
+    border: none;
+}
+#ya_share .b-share-btn__linkedin {
+    margin-right: 0;
+}
+#ya_share .b-share-icon {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    border-radius: 50%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+
+    -webkit-transition: .2s;
+     -moz-transition: .2s;
+     -o-transition: .2s;
+     transition: .2s;
+}
+#ya_share .b-share-icon_odnoklassniki { background-image: url('images/share-odnoklassniki.png'); background-color: #e67e17; }
+#ya_share .b-share-icon_odnoklassniki:hover { background-color: #e67300; }
+#ya_share .b-share-icon_odnoklassniki:active { background-color: #cd6600; }
+
+#ya_share .b-share-icon_vkontakte { background-image: url('images/share-vkontakte.png'); background-color: #4d75a3; }
+#ya_share .b-share-icon_vkontakte:hover { background-color: #3c5b80; }
+#ya_share .b-share-icon_vkontakte:active { background-color: #2e4661; }
+
+#ya_share .b-share-icon_facebook { background-image: url('images/share-facebook.png'); background-color: #3b5999; }
+#ya_share .b-share-icon_facebook:hover { background-color: #324a80; }
+#ya_share .b-share-icon_facebook:active { background-color: #283b66; }
+
+#ya_share .b-share-icon_twitter { background-image: url('images/share-twitter.png'); background-color: #00b0ed; }
+#ya_share .b-share-icon_twitter:hover { background-color: #0095c7; }
+#ya_share .b-share-icon_twitter:active { background-color: #0078a1; }
+
+#ya_share .b-share-icon_gplus { background-image: url('images/share-gplus.png'); background-color: #dd4b39; }
+#ya_share .b-share-icon_gplus:hover { background-color: #ba4030; }
+#ya_share .b-share-icon_gplus:active { background-color: #913226; }
+
+#ya_share .b-share-icon_linkedin { background-image: url('images/share-linkedin.png'); background-color: #007bb5; }
+#ya_share .b-share-icon_linkedin:hover { background-color: #0073a8; }
+#ya_share .b-share-icon_linkedin:active { background-color: #004769; }

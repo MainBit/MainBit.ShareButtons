@@ -1,0 +1,6 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2014 neTp9c
+
+#| msgid "Share with Friends:"
+msgid "Share with Friends:"
+msgstr "Поделиться:"
