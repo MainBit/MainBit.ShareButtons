@@ -1,4 +1,4 @@
-﻿@*@{
+﻿@{
     // WorkContext.CurrentCulture
     Script.Include("http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f1ed1d84d0e6b52");
 }
@@ -9,8 +9,8 @@
         <a rel="nofollow" class="addthis_button_tweet"></a>
         <a rel="nofollow" class="addthis_counter addthis_pill_style"></a>
     </div>
-</noindex>*@
-@{
+</noindex>
+@*@{
     using (Script.Foot())
     {
         <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
@@ -25,4 +25,4 @@
         <span class="label">@T("Share with Friends:")</span>
         <div id="ya_share" data-yashare-link="@(Model.Url)"></div>
     </div>
-</noindex>
+</noindex>*@
