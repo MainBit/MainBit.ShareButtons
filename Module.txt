@@ -3,8 +3,9 @@ AntiForgery: enabled
 Author: neTp9c
 Website: http://mainbit.com
 Version: 1.0
-OrchardVersion: 1.7
-Category: Community
+OrchardVersion: 1.10
+Category: Social
 Features:
     MainBit.ShareButtons:
-        Description: Add This share buttons
+        Description: Add share buttons elememt and content part
+		Dependencies: Orchard.Layouts, MainBit.Utility

@@ -1,5 +1,8 @@
 ﻿$(function () {
+    // ------------------------------------
     // share buttons
+    // ------------------------------------
+
     // http://api.yandex.ru/share/doc/dg/concepts/share-button-ov.xml
     if (typeof Ya !== 'undefined') {
         var ya_share = $('#ya_share');
